@@ -1,335 +1,925 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sajib - Portfolio/Resume</title>
+	<meta name="author" content="Sajib Hossain">
+	<meta name="description" content="Sajib - Portfolio/Resume">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/sajib.jpg">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="This is a Resume Website">
-  <meta name="author" content="Sajib Hossain">
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
-  <title>Resume - Sajib Hossain</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body id="page-top">
+<body class="dark">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Sajib Hossain</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/me.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#training">Training</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="sajib-hossain-resume.pdf">Resume</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<!-- Preloader -->
+<div id="preloader">
+	<div class="outer">
+		<!-- Google Chrome -->
+		<div class="infinityChrome">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
 
-  <div class="container-fluid p-0">
+		<!-- Safari and others -->
+		<div class="infinity">
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+		</div>
+		<!-- Stuff -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in="SourceGraphic" in2="goo" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+</div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Sajib
-          <span class="text-primary">Hossain</span>
-        </h1>
-        <div class="subheading mb-5">Noyanagar, Uttara - Dhaka-1230
-          Phone: <a href="tel:+8801317897143">+880 1317-897143</a>
-          Email: <a href="mailto:sajib1066@gmail.com">sajib1066@gmail.com</a>
-        </div>
-        <p class="lead mb-5">
-          I have been very interested in computers and programming since my college life.
-Dream to be an expert software engineer so that I can build professional and useful
-software that has business value. I am looking for a junior software engineer or related position in a reputed software company that can help me to
-achieve my goal.
-        </p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/sajib1066/" data-toggle="tooltip" title="Linkedin">
-              <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/sajib1066" data-toggle="tooltip" title="Github">
-              <i class="fab fa-github"></i>
-          </a>
-          <a href="https://twitter.com/sajib1066" data-toggle="tooltip" title="Twitter">
-              <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/sajib1066" data-toggle="tooltip" title="Facebook">
-              <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://stackoverflow.com/users/10357252/sajib-hossain" data-toggle="tooltip" title="Stackoverflow">
-              <i class="fab fa-stack-overflow"></i>
-          </a>
-          <a href="https://www.youtube.com/SajibHossain" data-toggle="tooltip" title="Youtube">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="https://www.hackerrank.com/sajib1066" data-toggle="tooltip" title="HackerRank">
-            <i class="fab fa-hackerrank"></i>
-          </a>
-          <a href="https://pypi.org/user/sajib1066/" data-toggle="tooltip" title="PyPi">
-            <i class="fab fa-python"></i>
-          </a>
-          <a href="https://www.fiverr.com/sajib1058" data-toggle="tooltip" title="Fiverr">
-            <i class="fab fa-fonticons"></i>
-          </a>
-      </div>
-      </div>
-    </section>
+<!-- mobile header -->
+<header class="mobile-header-1">
+	<div class="container">
+		<!-- menu icon -->
+		<div class="menu-icon d-inline-flex mr-4">
+			<button>
+				<span></span>
+			</button>
+		</div>
+		<!-- logo image -->
+		<div class="site-logo">
+			<a href="index-dark.html">
+				<img src="images/logo.svg" alt="Sajib" />
+			</a>
+		</div>
+	</div>
+</header>
 
-    <hr class="m-0">
+<!-- desktop header -->
+<header class="desktop-header-1 d-flex align-items-start flex-column">
+	
+	<!-- logo image -->
+	<div class="site-logo">
+		<a href="index.html">
+			<img src="images/me.jpg" alt="Sajib" style="height: 200px; width: 200px; border-radius: 50%;" />
+		</a>
+	</div>
+	
+	<!-- main menu -->
+	<nav>
+		<ul class="vertical-menu scrollspy">
+			<li class="active"><a href="#home"><i class="fa icon-home"></i>Home</a></li>
+			<li><a href="#about"><i class="icon-user-following"></i>About</a></li>
+			<li><a href="#skill"><i class="icon-drawer"></i>Skill</a></li>
+			<li><a href="#services"><i class="icon-briefcase"></i>Services</a></li>
+			<li><a href="#experience"><i class="icon-graduation"></i>Experience</a></li>
+			<li><a href="#works"><i class="icon-layers"></i>Works</a></li>
+			<li><a href="#contact"><i class="icon-bubbles"></i>Contact</a></li>
+			<li><a href="#contact"><i class="icon-people"></i>Resume</a></li>
+		</ul>
+	</nav>
+	
+	<!-- site footer -->
+	<div class="footer">
+		<!-- copyright text -->
+		<span class="copyright">© 2020 Sajib Hossain.</span>
+	</div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="training">
-      <div class="w-100">
-        <h2 class="mb-5">Professional Training</h2>
+</header>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Data and Exploratory Analysis with Python 3</h3>
-            <div class="subheading mb-3"><a href="https://training.devskill.com/Course/ViewDetails/f11e00f3-c1ef-ce20-1ae7-08d52e7664f1">Dev Skill</a></div>
-            <ul>
-              <li>Advanced python3 programming</li>
-              <li>Data scrapping</li>
-              <li>Data Analysis with Pandas/Numpy</li>
-              <li>Exploratory Data analysis</li>
-              <li>Introduction to Machine Learning</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">October, 2019 - January, 2020</span>
-          </div>
-        </div>
+<!-- main layout -->
+<main class="content">
+	
+	<!-- section home -->
+	<section id="home" class="home d-flex align-items-center">
+		<div class="container">
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Development with Django</h3>
-            <div class="subheading mb-3"><a href="http://www.banglaidjango.com/category/course/">Banglai Django</a></div>
-            <ul>
-              <li>Getting started with Django2</li>
-              <li>How web works</li>
-              <li>Basic Django ( models, views, templetes, urls, Forms)</li>
-              <li>Django Queryset</li>
-              <li>Model manager</li>
-              <li>Class Based View</li>
-              <li>Django Rest API</li>
-              <li>How to write smart code</li>
-              <li>Working with Postgresql Database</li>
-              <li>Version control with Git</li>
-              <li>Basic Javascript to use Rest API</li>
-              <li>Blog project</li>
-              <li>School Management System Project</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March, 2019 - September, 2019</span>
-          </div>
-        </div>
+			<!-- intro -->
+			<div class="intro">
+				<!-- avatar image -->
+				<img src="images/me.jpg" alt="Sajib" class="mb-4" style="height: 300px; width: 300px; border-radius: 50%" />
 
-      </div>
+				<!-- info -->
+				<h1 class="mb-2 mt-0">Sajib Hossain</h1>
+				<span>I'm a <span class="text-rotating">Python Developer, Django Developer, Back-End Developer</span></span>
 
-    </section>
+				<!-- social icons -->
+				<ul class="social-icons light list-inline mb-0 mt-4">
+					<li class="list-inline-item"><a href="https://www.instagram.com/sajib1066/"><i class="fab fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/sajib1066"><i class="fab fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://facebook.com/sajib1066"><i class="fab fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/sajib1066/"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.youtube.com/SajibHossain"><i class="fab fa-youtube"></i></a></li>
+					<li class="list-inline-item"><a href="https://github.com/sajib1066"><i class="fab fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://pypi.org/user/sajib1066/"><i class="fab fa-python"></i></a></li>
+				</ul>
 
-    <hr class="m-0">
+				<!-- buttons -->
+				<div class="mt-4">
+					<a href="https://www.fiverr.com/sajib1058" target='_blank' class="btn btn-default">Hire me</a>
+				</div>
+			</div>
+			
+			<!-- scroll down mouse wheel -->
+			<br><br><br><br>
+			<div class="scroll-down mt-4">
+				<a href="#about" class="mouse-wrapper">
+					<span>Scroll Down</span>
+					<span class="mouse">
+						<span class="wheel"></span>
+					</span>
+				</a>
+			</div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+			<!-- parallax layers -->
+			<div class="parallax" data-relative-input="true">
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Jashore Polytechnic Institute, Jashore</h3>
-            <div class="subheading mb-3">Diploma in Engineering</div>
-            <div>Computer Science</div>
-            <p>GPA: 3.37</p>
-            <p>-Participate Skills Competition 2018</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 - September 2019</span>
-          </div>
-        </div>
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg"><path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd"/></svg>
 
-      </div>
-    </section>
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg"><path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
 
-    <hr class="m-0">
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg"><path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd"/></svg>
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd"/></svg>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">School Management System</h3>
-            <p>
-              Our School Management System (SMS) is intended to automate day to day school administrative work like Attendance, student info management, Class Routine, exam routine and much more. The provision of the software is to help school management to save time on day to day school activity. Once the School Management System is in use, it will enable the school management to access all the necessary information, reports, files & documents of all the departments of the school in seconds.
-The school management system is completely an online web based solution, which can be accessed from anywhere online.
-            </p>
-            <a href="https://github.com/sajib1066/school_management_system" class="btn btn-outline-success">See Project</a>
-            <a href="https://youtu.be/HvnPeeLEVq0" class="btn btn-outline-success">Project Preview</a>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July, 2019 - October, 2019</span>
-          </div>
-        </div>
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Blog Application</h3>
-            <p>
-              This is Blog Application software. Here you can create blog and read another peoples Blog.
-              This website made with django, html5, css3, bootstrap and other necessary tools.
-            </p>
-            <a href="https://github.com/sajib1066/django_blog_application" class="btn btn-outline-success">See Project</a>
-            <a href="https://youtu.be/u-ZMbQxhNC8" class="btn btn-outline-success">Project Preview</a>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August, 2019 - September, 2019</span>
-          </div>
-        </div>
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg"><g fill="#FF4C60" fill-rule="evenodd"><path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z"/><path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z"/></g></svg>
 
-      </div>
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg"><path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
 
-    </section>
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
 
-    <hr class="m-0">
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg"><path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd"/></svg>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg"><g fill="#44D7B6" fill-rule="evenodd"><path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z"/><path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z"/></g></svg>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-git"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-github"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-bootstrap"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-linux"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-windows"></i>
-          </li>
-        </ul>
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg"><path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd"/></svg>
 
-        <div class="subheading mb-3">Technical Strengths</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Languages:             Python, JavaScript</pre></li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Dront-end:             Django, Flask</pre>
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Back-end:              Html5, Css3, Bootstrap</pre>
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>API:                   Django REST Framework</pre>
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Tools:                 Git, Vim, Github, Bitbucket</pre>
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Concepts:              RESTful Principles, Agile Methodologies</pre>
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            <pre>Systems:               Linux, Windows</pre>
-          </li>
-        </ul>
-      </div>
-    </section>
+			</div>
+		</div>
+		
+	</section>
 
-    <hr class="m-0">
+	<!-- section about -->
+	<section id="about">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Software Engineering and Data Science</p>
-      </div>
-    </section>
-  </div>
-  <footer style="padding: 10px; background-color: gray; color: #fff;">
-    <p>Sajib Hossain</p>
-  </footer>
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">About Me</h2>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+				<div class="col-md-3">
+					<div class="text-center text-md-left">
+						<!-- avatar image -->
+						<img src="images/sajib.jpg" alt="Sajib" style="height: 200px; width: 100%; border-radius: 50%;" />
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+				<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-dark shadow-light padding-30">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- about text -->
+								<p>I am Sajib Hossain, web developer from Jashore, Bangladesh. I have rich experience in web site design and building and customization, also I am good at Python and Django.</p>
+								<div class="mt-3">
+									<a href="#" class="btn btn-default">Download CV</a>
+								</div>
+								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+							</div>
+							<div class="col-md-6">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Phone Number:</h4>
+										<h4 class="float-right mb-3 mt-0">+880 1317-897143</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Email:</h4>
+										<h4 class="float-right mb-3 mt-0">sajib1066@gmail.com</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Address:</h4>
+										<h4 class="float-right mb-3 mt-0">Bosundia, Jashore</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- row end -->
+
+			<div class="spacer" data-height="70"></div>
+			
+			<div class="row">
+				
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-fire"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">10</em></h3>
+							<p class="mb-0">Project complete</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-cup"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">20</em></h3>
+							<p class="mb-0">Cup of coffee</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-people"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">3</em></h3>
+							<p class="mb-0">Satisfied clients</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon icon-badge"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">0</em></h3>
+							<p class="mb-0">Nominees winner</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+	</section>
+
+	<!-- section skill -->
+	<section id="skill">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Skills</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-12 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-dark shadow-light padding-30">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Programming Lanuage:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Back-End:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Front-End:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">API:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Tools:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Concepts:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Operating System:</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">Python, Javascript</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">Django, Flask</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">HTML5, CSS3, Bootstrap</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">Django REST Framework</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">Git, Vim, Github, Bitbucket</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">RESTful Principles, Agile Methodologies</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0 ml-4">Linux, Windows</h4>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- row end -->
+		</div>
+		
+	</section>
+	
+	<!-- section services -->
+	<section id="services">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Services</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
+						<img src="images/service-1.svg" alt="UI/UX design" />
+						<h3 class="mb-3 mt-0">UI/UX design</h3>
+						<p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C">
+						<img src="images/service-2.svg" alt="UI/UX design" />
+						<h3 class="mb-3 mt-0">Web Development</h3>
+						<p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
+						<img src="images/service-3.svg" alt="UI/UX design" />
+						<h3 class="mb-3 mt-0">Photography</h3>
+						<p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="mt-5 text-center">
+				<p class="mb-0">Looking for a custom job? <a href="#contact">Click here</a> to contact me! 👋</p>
+			</div>
+
+		</div>
+		
+	</section>
+	
+	<!-- section experience -->
+	<section id="experience">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Experience</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-6">
+					
+					<!-- timeline wrapper -->
+					<div class="timeline edu bg-dark rounded shadow-light padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">2015 - 2019</span>
+								<h3 class="title">DIPLOMA IN ENGINEERING</h3>
+								<p>-Jashore Polytechnic Institute, Jashore</p>
+								<p>-Computer Science and Technology</p>
+								<p>-CGPA: 3.37 (Out of 4)</p>
+								<p>-Participate Skills Competition 2018</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="content">
+								<span class="time">2013 - 2015</span>
+								<h3 class="title">SECONDARY SCHOOL CERTIFICATE (S.S.C)</h3>
+								<p>-Jangle Badhal High School, Bosundia, Jashore</p>
+								<p>-GPA: 4.89 (Out of 5)</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					
+					<!-- responsive spacer -->
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+
+					<!-- timeline wrapper -->
+					<div class="timeline exp bg-dark rounded shadow-light padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">2019 - Present</span>
+								<h3 class="title">Web Designer</h3>
+								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="content">
+								<span class="time">2017 - 2013</span>
+								<h3 class="title">Front-End Developer</h3>
+								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+							</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+							<div class="content">
+								<span class="time">2013 - 2009</span>
+								<h3 class="title">Back-End Developer</h3>
+								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+	</section>
+	
+	<!-- section works -->
+	<section id="works">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Recent works</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			<!-- portfolio filter (desktop) -->
+			<ul class="portfolio-filter list-inline wow fadeInUp">
+				<li class="current list-inline-item" data-filter="*">Everything</li>
+				<li class="list-inline-item" data-filter=".web">Web Development</li>
+				<li class="list-inline-item" data-filter=".opencv">Computer Vission</li>
+				<li class="list-inline-item" data-filter=".others">Others</li>
+			</ul>
+			
+			<!-- portfolio filter (mobile) -->
+			<div class="pf-filter-wrapper">
+				<select class="portfolio-filter-mobile">
+					<option value="*">Everything</option>
+					<option value=".web">Web Development</option>
+					<option value=".opencv">Computer Vission</option>
+					<option value=".others">Others</option>
+				</select>
+			</div>
+			
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+				<!-- portfolio item web development-->
+				<div class="col-md-4 col-sm-6 grid-item web">
+					<a href="#small-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Web Development</span>
+								<h4 class="title">Event Managment System</h4>
+							</div>
+							<div class="thumb">
+								<img src="images/works/event-management.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/works/event-management.png" alt="Title" />
+						<h2>Event Managment System</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+						<p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+						<a href="#" class="btn btn-dark">View on Github</a>
+						<a href="#" class="btn btn-default">View on Youtube</a>
+					</div>
+				</div>
+
+				<!-- portfolio item computer vission-->
+				<div class="col-md-4 col-sm-6 grid-item opencv">
+					<a href="#motion" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Computer Vission</span>
+								<h4 class="title">Motion Detection System</h4>
+							</div>
+							<div class="thumb">
+								<img src="images/works/motion.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="motion" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/works/motion.png" alt="Title" />
+						<h2>Motion Detection System</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+						<p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+						<a href="#" class="btn btn-dark">View on Github</a>
+						<a href="#" class="btn btn-default">View on Youtube</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- more button -->
+			<div class="load-more text-center mt-4">
+				<a href="javascript:" class="btn btn-default"><i class="fas fa-spinner"></i> Load more</a>
+				<!-- numbered pagination (hidden for infinite scroll) -->
+				<ul class="portfolio-pagination list-inline d-none">
+					<li class="list-inline-item">1</li>
+					<li class="list-inline-item"><a href="works-2.html">2</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+	
+	<!-- section prices -->
+	<section id="prices">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeIn">Pricing Plans</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+				
+				<div class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<!-- price item -->
+					<div class="price-item bg-dark rounded shadow-light text-center">
+						<img src="images/price-1.svg" alt="Regular" />
+						<h2 class="plan">Basic</h2>
+						<p>A Simple option but powerful to manage your business</p>
+						<p>Email support</p>
+						<h3 class="price"><em>$</em>9<span>Month</span></h3>
+						<a href="#" class="btn btn-default">Get Started</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 px-md-0 my-4 my-md-0">
+					<!-- price item recommended-->
+					<div class="price-item bg-dark rounded shadow-light text-center best">
+						<span class="badge">Recommended</span>
+						<img src="images/price-2.svg" alt="Premium" />
+						<h2 class="plan">Premium</h2>
+						<p>Unlimited product including apps integrations and more features</p>
+						<p>Mon-Fri support</p>
+						<h3 class="price"><em>$</em>49<span>Month</span></h3>
+						<a href="#" class="btn btn-default">Get Started</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 pl-md-0 mt-md-4 mt-0">
+					<!-- price item -->
+					<div class="price-item bg-dark rounded shadow-light text-center">
+						<img src="images/price-3.svg" alt="Ultimate" />
+						<h2 class="plan">Ultimate</h2>
+						<p>A wise option for large companies and individuals</p>
+						<p>24/7 support</p>
+						<h3 class="price"><em>$</em>99<span>Month</span></h3>
+						<a href="#" class="btn btn-default">Get Started</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	
+	<!-- section testimonials -->
+	<section id="testimonials">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Clients & Reviews</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<!-- testimonials wrapper -->
+			<div class="testimonials-wrapper">
+				
+				<!-- testimonial item -->
+				<div class="testimonial-item text-center mx-auto">
+					<div class="thumb mb-3 mx-auto">
+						<img src="images/avatar-3.svg" alt="customer-name" />						
+					</div>
+					<h4 class="mt-3 mb-0">John Doe</h4>
+					<span class="subtitle">Product designer at Dribbble</span>
+					<div class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
+						<p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍</p>
+					</div>
+				</div>
+				
+				<!-- testimonial item -->
+				<div class="testimonial-item text-center mx-auto">
+					<div class="thumb mb-3 mx-auto">
+						<img src="images/avatar-1.svg" alt="customer-name" />						
+					</div>
+					<h4 class="mt-3 mb-0">John Doe</h4>
+					<span class="subtitle">Product designer at Dribbble</span>
+					<div class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
+						<p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 🔥</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-1-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-2-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-3-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-4-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-5-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-6-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-7-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner">
+							<img src="images/client-8-light.svg" alt="client-name" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	
+	<!-- section contact -->
+	<section id="contact">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Get In Touch</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+				
+				<div class="col-md-4">
+					<!-- contact info -->
+					<div class="contact-info">
+						<h3 class="wow fadeInUp">Let's talk about everything!</h3>
+						<p class="wow fadeInUp">Don't like forms? Send me an <a href="mailto:name@example.com">email</a>. 👋</p>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+
+						<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Send Message</button><!-- Send Button -->
+
+					</form>
+					<!-- Contact Form end -->
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<div class="spacer" data-height="96"></div>
+	
+</main>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>
