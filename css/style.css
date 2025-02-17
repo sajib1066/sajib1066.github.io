@@ -2439,3 +2439,10 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.location {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
